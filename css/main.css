@@ -6,6 +6,13 @@
     position:absolute;
 }
 
+#titleword {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color:yellow;
+    font-size:200%;
+}
+
 .container {
     position: relative;
 }
@@ -88,48 +95,6 @@
 
 @media screen and (min-width: 1280px) {
 
-    #home {
-        position: relative;
-        height:100vh;
-        width: 100%;
-        background-color: black;
-
-        -o-transition: background-color 1.110s linear;
-        -webkit-transition: background-color 1.110s linear;
-        -moz-transition: background-color 1.110s linear;
-        transition: background-color 1.110s linear;
-    }
-
-    #home:hover {
-        background-color: #9370DB;
-    }
-
-    #home #title:hover{
-        background-color:yellow;
-        color: red; 
-    }
-
-    #home #title0 {
-        position: relative;
-        top:20%;
-        width: 100%;
-        height: 400px;
-    }
-
-    #home #title {
-        position: relative;
-        top:1%;
-        width: 100%;
-        height: 400px;
-        -ms-transform: rotate(7deg); /* IE 9 */
-        -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-        transform: rotate(7deg);
-
-        -o-transition: color,background-color 1.110s linear;
-        -webkit-transition: color,background-color 1.110s linear;
-        -moz-transition: color,background-color 1.110s linear;
-        transition: color,background-color 1.110s linear;
-    }
 
     #section1 {
         position: relative;
@@ -140,9 +105,13 @@
 
     #who_are_we {
         position: relative;
+        background-image: url("../img/a1.jpg");
         height:110vh;
-        width: 100%;
-        background-color: #40E0D0;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
     }
 
     #section2 {
@@ -215,34 +184,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    #home {
-        position: relative;
-        height:50vh;
-        width: 100%;
-        background-color: black;
-
-        -o-transition: background-color 1.110s linear;
-        -webkit-transition: background-color 1.110s linear;
-        -moz-transition: background-color 1.110s linear;
-        transition: background-color 1.110s linear;
-    }
-
-    #home:hover {
-        background-color: #9370DB;
-    }
-
-    #home #title0 {
-        position: relative;
-        top:20%;
-        width: 100%;
-        height: 300px;
-    }
-
-    #home #title {
-        position: relative;
-        width: 100%;
-        height: 300px;
-    }
 
     #section1 {
         position: relative;
@@ -253,9 +194,12 @@
 
     #who_are_we {
         position: relative;
-        height:70vh;
-        width: 100%;
-        background-color: #40E0D0;
+        background-image: url("../img/a1.jpg");
+        height:110vh;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #section2 {
@@ -317,36 +261,7 @@
 }
 
 @media screen and (max-width: 767px) {
-     #home {
-        position: relative;
-        height:50vh;
-        width: 100%;
-        background-color: black;
-
-        -o-transition: background-color 1.110s linear;
-        -webkit-transition: background-color 1.110s linear;
-        -moz-transition: background-color 1.110s linear;
-        transition: background-color 1.110s linear;
-    }
-
-    #home:hover {
-        background-color: #9370DB;
-    }
-
-    #home #title0 {
-        position: relative;
-        top:0%;
-        visibility: hidden;
-    }
-
-    #home #title {
-        position: relative;
-        top:20%;
-        width: 100%;
-        height: 100px;
-        font-size: 30px;
-    }
-
+     
     #section1 {
         position: relative;
         height:0vh;
